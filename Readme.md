@@ -11,8 +11,8 @@ Search results are considered as actual to avoid redundant calculations in case 
 ![Internal structures](Internals.png)
 
 # Example
-
-        'iGraph<String> friendsGraph = new Graph<String>("Friends", false);
+~~~~
+        iGraph<String> friendsGraph = new Graph<String>("Friends", false);
 
         String person1 = "Monica";
         String person2 = "Phoebe";
@@ -53,7 +53,7 @@ Search results are considered as actual to avoid redundant calculations in case 
         } catch (ItemExistsException | ItemNotFoundException ex) {
             System.err.println(ex.getMessage());
         }
-'
+~~~~
 
 # Javadoc
 
