@@ -10,9 +10,9 @@ Data structure described below is built and linked to the search start vertex.
 Search results are considered as actual to avoid redundant calculations in case graph isn't changed.
 ![Internal structures](Internals.png)
 
-#Example
-'
-        iGraph<String> friendsGraph = new Graph<String>("Friends", false);
+# Example
+
+        'iGraph<String> friendsGraph = new Graph<String>("Friends", false);
 
         String person1 = "Monica";
         String person2 = "Phoebe";
